@@ -1,0 +1,109 @@
+{
+	"order": {
+		"orderID": "12345",
+		"orderDate": "20/05/2023",
+		"requiredDate": "20/06/2023",
+		"shippedDate": "25/05/2023",
+		"shipper": {
+			"company": "Fajny kurier",
+			"phone": "+48 692 434 212"
+		},
+		"employee": {
+			"firstname": "Jan",
+			"lastname": "Nowak",
+			"address": {
+				"street": "Sosnowa",
+				"city": "Katowice",
+				"state": "Œl¹skie",
+				"zip": "40-750"
+			},
+			"phone": "+48 452 629 020",
+			"email": "jan.nowak@gmail.com",
+			"reportsTo": {
+				"employee": {
+					"firstname": "Kacper",
+					"lastname": "Szef",
+					"address": {
+						"street": "Szefowa",
+						"city": "Katowice",
+						"state": "Œl¹skie",
+						"zip": "40-750"
+					},
+					"phone": "+48 211 100 632",
+					"email": "kacper.szef@gmail.com"
+				}
+			}
+		},
+		"customer": {
+			"company": "Fajna firma",
+			"contactname": "Kuba Kowal",
+			"contacttitle": "Specjalista od sprzeda¿y",
+			"address": {
+				"street": "Wiosenna",
+				"city": "Katowice",
+				"state": "Œl¹skie",
+				"zip": "41-750"
+			}
+		},
+		"orderitems": {
+			"orderitem": [
+				{
+					"product": {
+						"productname": "Rower turystyczny",
+						"supplier": {
+							"company": "Rowerowo",
+							"contactname": "Adam Nowakowski",
+							"contacttitle": "Handlowiec",
+							"address": {
+								"street": "Wiœlana",
+								"city": "Sosnowiec",
+								"state": "Œl¹skie",
+								"zip": "41-200"
+							},
+							"phone": "+48 454 294 733",
+							"homepage": "https://www.fajny.dostawca.pl"
+						},
+						"category": {
+							"categoryname": "Rowery",
+							"description": "Rowery wszelkiego typu"
+						},
+						"quantityperunit": "1",
+						"unitsinstock": "50",
+						"discontinued": "0"
+					},
+					"unitprice": "7000",
+					"quantity": "1",
+					"discount": "0.05"
+				},
+				{
+					"product": {
+						"productname": "Rower górski",
+						"supplier": {
+							"company": "Rowerowo",
+							"contactname": "Adam Nowakowski",
+							"contacttitle": "Handlowiec",
+							"address": {
+								"street": "Wiœlana",
+								"city": "Sosnowiec",
+								"state": "Œl¹skie",
+								"zip": "41-200"
+							},
+							"phone": "+48 454 294 733",
+							"homepage": "https://www.fajny.dostawca.pl"
+						},
+						"category": {
+							"categoryname": "Rowery",
+							"description": "Rowery wszelkiego typu"
+						},
+						"quantityperunit": "1",
+						"unitsinstock": "20",
+						"discontinued": "0"
+					},
+					"unitprice": "11000",
+					"quantity": "1",
+					"discount": "0.05"
+				}
+			]
+		}
+	}
+}

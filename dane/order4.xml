@@ -1,0 +1,77 @@
+<order>
+        <orderID>12348</orderID>
+        <orderDate>17/05/2023</orderDate>
+        <requiredDate>17/06/2023</requiredDate>
+        <shippedDate>20/05/2023</shippedDate>
+        <shipper>
+            <company>Inny kurier</company>
+            <phone>+48 212 364 786</phone>
+        </shipper>
+        <employee>
+            <firstname>Małgorzata</firstname>
+            <lastname>Nowak</lastname>
+            <address>
+                <street>Zimna</street>
+                <city>Sosnowiec</city>
+                <state>Śląskie</state>
+                <zip>40-205</zip>
+            </address>
+            <phone>+48 212 425 333</phone>
+            <email>malgorzata.nowak@gmail.com</email>
+            <reportsTo>
+                <employee>
+                    <firstname>Kacper</firstname>
+                    <lastname>Szef</lastname>
+                    <address>
+                        <street>Szefowa</street>
+                        <city>Katowice</city>
+                        <state>Śląskie</state>
+                        <zip>40-750</zip>
+                    </address>
+                    <phone>+48 211 100 632</phone>
+                    <email>kacper.szef@gmail.com</email>
+                </employee>
+            </reportsTo>
+        </employee>
+        <customer>
+            <company>Kompletni</company>
+            <contactname>Sabrina Drób</contactname>
+            <contacttitle>Menadżer Nielotów</contacttitle>
+            <address>
+                <street>Lotna</street>
+                <city>Warszawa</city>
+                <state>Mazowieckie</state>
+                <zip>00-05</zip>
+            </address>
+        </customer>
+        <orderitems>
+            <orderitem>
+                <product>
+                    <productname>Laptop Azer Predator Helios 300</productname>
+                    <supplier>
+                        <company>Azer</company>
+                        <contactname>Władysław Znany</contactname>
+                        <contacttitle>Sprzedawca</contacttitle>
+                        <address>
+                            <street>Zyskowna</street>
+                            <city>Katowice</city>
+                            <state>Śląskie</state>
+                            <zip>62-312</zip>
+                        </address>
+                        <phone>+48 456 413 334</phone>
+                        <homepage>https://www.azer.com</homepage>
+                    </supplier>
+                    <category>
+                        <categoryname>Laptopy</categoryname>
+                        <description>Wszelkiego typu laptopy</description>
+                    </category>
+                    <quantityperunit>1</quantityperunit>
+                    <unitsinstock>99</unitsinstock>
+                    <discontinued>0</discontinued>
+                </product>
+                <unitprice>9001</unitprice>
+                <quantity>1</quantity>
+                <discount>0</discount>
+            </orderitem>
+        </orderitems>
+</order>

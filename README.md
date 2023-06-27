@@ -1,0 +1,1 @@
+Repozytorium z rozwiązaniami zadań z zajęć Zaawansowane bazy danych

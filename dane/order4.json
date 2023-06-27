@@ -1,0 +1,79 @@
+{
+	"order": {
+		"orderID": "12348",
+		"orderDate": "17/05/2023",
+		"requiredDate": "17/06/2023",
+		"shippedDate": "20/05/2023",
+		"shipper": {
+			"company": "Inny kurier",
+			"phone": "+48 212 364 786"
+		},
+		"employee": {
+			"firstname": "Ma³gorzata",
+			"lastname": "Nowak",
+			"address": {
+				"street": "Zimna",
+				"city": "Sosnowiec",
+				"state": "Œl¹skie",
+				"zip": "40-205"
+			},
+			"phone": "+48 212 425 333",
+			"email": "malgorzata.nowak@gmail.com",
+			"reportsTo": {
+				"employee": {
+					"firstname": "Kacper",
+					"lastname": "Szef",
+					"address": {
+						"street": "Szefowa",
+						"city": "Katowice",
+						"state": "Œl¹skie",
+						"zip": "40-750"
+					},
+					"phone": "+48 211 100 632",
+					"email": "kacper.szef@gmail.com"
+				}
+			}
+		},
+		"customer": {
+			"company": "Kompletni",
+			"contactname": "Sabrina Drób",
+			"contacttitle": "Menad¿er Nielotów",
+			"address": {
+				"street": "Lotna",
+				"city": "Warszawa",
+				"state": "Mazowieckie",
+				"zip": "00-05"
+			}
+		},
+		"orderitems": {
+			"orderitem": {
+				"product": {
+					"productname": "Laptop Azer Predator Helios 300",
+					"supplier": {
+						"company": "Azer",
+						"contactname": "W³adys³aw Znany",
+						"contacttitle": "Sprzedawca",
+						"address": {
+							"street": "Zyskowna",
+							"city": "Katowice",
+							"state": "Œl¹skie",
+							"zip": "62-312"
+						},
+						"phone": "+48 456 413 334",
+						"homepage": "https://www.azer.com"
+					},
+					"category": {
+						"categoryname": "Laptopy",
+						"description": "Wszelkiego typu laptopy"
+					},
+					"quantityperunit": "1",
+					"unitsinstock": "99",
+					"discontinued": "0"
+				},
+				"unitprice": "9001",
+				"quantity": "1",
+				"discount": "0"
+			}
+		}
+	}
+}

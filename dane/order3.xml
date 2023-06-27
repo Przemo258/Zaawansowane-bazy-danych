@@ -1,0 +1,105 @@
+<order>
+        <orderID>12347</orderID>
+        <orderDate>18/05/2023</orderDate>
+        <requiredDate>18/06/2023</requiredDate>
+        <shippedDate>19/05/2023</shippedDate>
+        <shipper>
+            <company>Inny kurier</company>
+            <phone>+48 212 364 786</phone>
+        </shipper>
+        <employee>
+            <firstname>Małgorzata</firstname>
+            <lastname>Nowak</lastname>
+            <address>
+                <street>Zimna</street>
+                <city>Sosnowiec</city>
+                <state>Śląskie</state>
+                <zip>40-205</zip>
+            </address>
+            <phone>+48 212 425 333</phone>
+            <email>malgorzata.nowak@gmail.com</email>
+            <reportsTo>
+                <employee>
+                    <firstname>Kacper</firstname>
+                    <lastname>Szef</lastname>
+                    <address>
+                        <street>Szefowa</street>
+                        <city>Katowice</city>
+                        <state>Śląskie</state>
+                        <zip>40-750</zip>
+                    </address>
+                    <phone>+48 211 100 632</phone>
+                    <email>kacper.szef@gmail.com</email>
+                </employee>
+            </reportsTo>
+        </employee>
+        <customer>
+            <company>Dobra firma</company>
+            <contactname>Dobromir Kukułka</contactname>
+            <contacttitle>Specjalista zakupów</contacttitle>
+            <address>
+                <street>Letnia</street>
+                <city>Warszawa</city>
+                <state>Mazowieckie</state>
+                <zip>00-04</zip>
+            </address>
+        </customer>
+        <orderitems>
+            <orderitem>
+                <product>
+                    <productname>Aparat Nigon 420</productname>
+                    <supplier>
+                        <company>Aparaty</company>
+                        <contactname>Robert Pasjonat</contactname>
+                        <contacttitle>Mr.</contacttitle>
+                        <address>
+                            <street>Aparatowa</street>
+                            <city>Katowice</city>
+                            <state>Śląskie</state>
+                            <zip>41-206</zip>
+                        </address>
+                        <phone>+48 211 316 309</phone>
+                        <homepage>https://www.aparaty.nigon.pl</homepage>
+                    </supplier>
+                    <category>
+                        <categoryname>Aparaty</categoryname>
+                        <description>Aparaty wszelkiego typu</description>
+                    </category>
+                    <quantityperunit>2</quantityperunit>
+                    <unitsinstock>15</unitsinstock>
+                    <discontinued>0</discontinued>
+                </product>
+                <unitprice>3500</unitprice>
+                <quantity>1</quantity>
+                <discount>0.05</discount>
+            </orderitem>
+            <orderitem>
+                <product>
+                    <productname>Obiektyw Szerokokątny</productname>
+                    <supplier>
+                        <company>Aparaty</company>
+                        <contactname>Robert Pasjonat</contactname>
+                        <contacttitle>Mr.</contacttitle>
+                        <address>
+                            <street>Aparatowa</street>
+                            <city>Katowice</city>
+                            <state>Śląskie</state>
+                            <zip>41-206</zip>
+                        </address>
+                        <phone>+48 211 316 309</phone>
+                        <homepage>https://www.aparaty.nigon.pl</homepage>
+                    </supplier>
+                    <category>
+                        <categoryname>Aparaty</categoryname>
+                        <description>Aparaty wszelkiego typu</description>
+                    </category>
+                    <quantityperunit>1</quantityperunit>
+                    <unitsinstock>2</unitsinstock>
+                    <discontinued>0</discontinued>
+                </product>
+                <unitprice>500</unitprice>
+                <quantity>1</quantity>
+                <discount>0</discount>
+            </orderitem>
+        </orderitems>
+</order>

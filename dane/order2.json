@@ -1,0 +1,79 @@
+{
+	"order": {
+		"orderID": "12346",
+		"orderDate": "19/05/2023",
+		"requiredDate": "19/06/2023",
+		"shippedDate": "20/05/2023",
+		"shipper": {
+			"company": "Fajny kurier",
+			"phone": "+48 692 434 212"
+		},
+		"employee": {
+			"firstname": "Jan",
+			"lastname": "Nowak",
+			"address": {
+				"street": "Sosnowa",
+				"city": "Katowice",
+				"state": "Œl¹skie",
+				"zip": "40-750"
+			},
+			"phone": "+48 452 629 020",
+			"email": "jan.nowak@gmail.com",
+			"reportsTo": {
+				"employee": {
+					"firstname": "Kacper",
+					"lastname": "Szef",
+					"address": {
+						"street": "Szefowa",
+						"city": "Katowice",
+						"state": "Œl¹skie",
+						"zip": "40-750"
+					},
+					"phone": "+48 211 100 632",
+					"email": "kacper.szef@gmail.com"
+				}
+			}
+		},
+		"customer": {
+			"company": "Inna firma",
+			"contactname": "Pawe³ Nowy",
+			"contacttitle": "Menad¿er zarz¹dzania",
+			"address": {
+				"street": "pewna",
+				"city": "Katowice",
+				"state": "Œl¹skie",
+				"zip": "41-751"
+			}
+		},
+		"orderitems": {
+			"orderitem": {
+				"product": {
+					"productname": "Klocki lago batman",
+					"supplier": {
+						"company": "Lago",
+						"contactname": "Jan pewny",
+						"contacttitle": "Pracownik",
+						"address": {
+							"street": "Budowlana",
+							"city": "Wroc³aw",
+							"state": "Œl¹skie",
+							"zip": "62-312"
+						},
+						"phone": "+48 211 506 772",
+						"homepage": "https://www.lago.pl"
+					},
+					"category": {
+						"categoryname": "Zababwki dla dzieci",
+						"description": "Ró¿norakie zabawki od ropotów po klocki"
+					},
+					"quantityperunit": "1",
+					"unitsinstock": "300",
+					"discontinued": "0"
+				},
+				"unitprice": "500",
+				"quantity": "1",
+				"discount": "0"
+			}
+		}
+	}
+}

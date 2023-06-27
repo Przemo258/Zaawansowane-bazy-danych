@@ -1,0 +1,109 @@
+{
+	"order": {
+		"orderID": "12347",
+		"orderDate": "18/05/2023",
+		"requiredDate": "18/06/2023",
+		"shippedDate": "19/05/2023",
+		"shipper": {
+			"company": "Inny kurier",
+			"phone": "+48 212 364 786"
+		},
+		"employee": {
+			"firstname": "Ma³gorzata",
+			"lastname": "Nowak",
+			"address": {
+				"street": "Zimna",
+				"city": "Sosnowiec",
+				"state": "Œl¹skie",
+				"zip": "40-205"
+			},
+			"phone": "+48 212 425 333",
+			"email": "malgorzata.nowak@gmail.com",
+			"reportsTo": {
+				"employee": {
+					"firstname": "Kacper",
+					"lastname": "Szef",
+					"address": {
+						"street": "Szefowa",
+						"city": "Katowice",
+						"state": "Œl¹skie",
+						"zip": "40-750"
+					},
+					"phone": "+48 211 100 632",
+					"email": "kacper.szef@gmail.com"
+				}
+			}
+		},
+		"customer": {
+			"company": "Dobra firma",
+			"contactname": "Dobromir Kuku³ka",
+			"contacttitle": "Specjalista zakupów",
+			"address": {
+				"street": "Letnia",
+				"city": "Warszawa",
+				"state": "Mazowieckie",
+				"zip": "00-04"
+			}
+		},
+		"orderitems": {
+			"orderitem": [
+				{
+					"product": {
+						"productname": "Aparat Nigon 420",
+						"supplier": {
+							"company": "Aparaty",
+							"contactname": "Robert Pasjonat",
+							"contacttitle": "Mr.",
+							"address": {
+								"street": "Aparatowa",
+								"city": "Katowice",
+								"state": "Œl¹skie",
+								"zip": "41-206"
+							},
+							"phone": "+48 211 316 309",
+							"homepage": "https://www.aparaty.nigon.pl"
+						},
+						"category": {
+							"categoryname": "Aparaty",
+							"description": "Aparaty wszelkiego typu"
+						},
+						"quantityperunit": "2",
+						"unitsinstock": "15",
+						"discontinued": "0"
+					},
+					"unitprice": "3500",
+					"quantity": "1",
+					"discount": "0.05"
+				},
+				{
+					"product": {
+						"productname": "Obiektyw Szerokok¹tny",
+						"supplier": {
+							"company": "Aparaty",
+							"contactname": "Robert Pasjonat",
+							"contacttitle": "Mr.",
+							"address": {
+								"street": "Aparatowa",
+								"city": "Katowice",
+								"state": "Œl¹skie",
+								"zip": "41-206"
+							},
+							"phone": "+48 211 316 309",
+							"homepage": "https://www.aparaty.nigon.pl"
+						},
+						"category": {
+							"categoryname": "Aparaty",
+							"description": "Aparaty wszelkiego typu"
+						},
+						"quantityperunit": "1",
+						"unitsinstock": "2",
+						"discontinued": "0"
+					},
+					"unitprice": "500",
+					"quantity": "1",
+					"discount": "0"
+				}
+			]
+		}
+	}
+}

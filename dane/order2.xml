@@ -1,0 +1,77 @@
+<order>
+        <orderID>12346</orderID>
+        <orderDate>19/05/2023</orderDate>
+        <requiredDate>19/06/2023</requiredDate>
+        <shippedDate>20/05/2023</shippedDate>
+        <shipper>
+            <company>Fajny kurier</company>
+            <phone>+48 692 434 212</phone>
+        </shipper>
+        <employee>
+            <firstname>Jan</firstname>
+            <lastname>Nowak</lastname>
+            <address>
+                <street>Sosnowa</street>
+                <city>Katowice</city>
+                <state>Śląskie</state>
+                <zip>40-750</zip>
+            </address>
+            <phone>+48 452 629 020</phone>
+            <email>jan.nowak@gmail.com</email>
+            <reportsTo>
+                <employee>
+                    <firstname>Kacper</firstname>
+                    <lastname>Szef</lastname>
+                    <address>
+                        <street>Szefowa</street>
+                        <city>Katowice</city>
+                        <state>Śląskie</state>
+                        <zip>40-750</zip>
+                    </address>
+                    <phone>+48 211 100 632</phone>
+                    <email>kacper.szef@gmail.com</email>
+                </employee>
+            </reportsTo>
+        </employee>
+        <customer>
+            <company>Inna firma</company>
+            <contactname>Paweł Nowy</contactname>
+            <contacttitle>Menadżer zarządzania</contacttitle>
+            <address>
+                <street>pewna</street>
+                <city>Katowice</city>
+                <state>Śląskie</state>
+                <zip>41-751</zip>
+            </address>
+        </customer>
+        <orderitems>
+            <orderitem>
+                <product>
+                    <productname>Klocki lago batman</productname>
+                    <supplier>
+                        <company>Lago</company>
+                        <contactname>Jan pewny</contactname>
+                        <contacttitle>Pracownik</contacttitle>
+                        <address>
+                            <street>Budowlana</street>
+                            <city>Wrocław</city>
+                            <state>Śląskie</state>
+                            <zip>62-312</zip>
+                        </address>
+                        <phone>+48 211 506 772</phone>
+                        <homepage>https://www.lago.pl</homepage>
+                    </supplier>
+                    <category>
+                        <categoryname>Zababwki dla dzieci</categoryname>
+                        <description>Różnorakie zabawki od ropotów po klocki</description>
+                    </category>
+                    <quantityperunit>1</quantityperunit>
+                    <unitsinstock>300</unitsinstock>
+                    <discontinued>0</discontinued>
+                </product>
+                <unitprice>500</unitprice>
+                <quantity>1</quantity>
+                <discount>0</discount>
+            </orderitem>
+        </orderitems>
+</order>

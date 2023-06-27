@@ -1,0 +1,105 @@
+<order>
+        <orderID>12345</orderID>
+        <orderDate>20/05/2023</orderDate>
+        <requiredDate>20/06/2023</requiredDate>
+        <shippedDate>25/05/2023</shippedDate>
+        <shipper>
+            <company>Fajny kurier</company>
+            <phone>+48 692 434 212</phone>
+        </shipper>
+        <employee>
+            <firstname>Jan</firstname>
+            <lastname>Nowak</lastname>
+            <address>
+                <street>Sosnowa</street>
+                <city>Katowice</city>
+                <state>Śląskie</state>
+                <zip>40-750</zip>
+            </address>
+            <phone>+48 452 629 020</phone>
+            <email>jan.nowak@gmail.com</email>
+            <reportsTo>
+                <employee>
+                    <firstname>Kacper</firstname>
+                    <lastname>Szef</lastname>
+                    <address>
+                        <street>Szefowa</street>
+                        <city>Katowice</city>
+                        <state>Śląskie</state>
+                        <zip>40-750</zip>
+                    </address>
+                    <phone>+48 211 100 632</phone>
+                    <email>kacper.szef@gmail.com</email>
+                </employee>
+            </reportsTo>
+        </employee>
+        <customer>
+            <company>Fajna firma</company>
+            <contactname>Kuba Kowal</contactname>
+            <contacttitle>Specjalista od sprzedaży</contacttitle>
+            <address>
+                <street>Wiosenna</street>
+                <city>Katowice</city>
+                <state>Śląskie</state>
+                <zip>41-750</zip>
+            </address>
+        </customer>
+        <orderitems>
+            <orderitem>
+                <product>
+                    <productname>Rower turystyczny</productname>
+                    <supplier>
+                        <company>Rowerowo</company>
+                        <contactname>Adam Nowakowski</contactname>
+                        <contacttitle>Handlowiec</contacttitle>
+                        <address>
+                            <street>Wiślana</street>
+                            <city>Sosnowiec</city>
+                            <state>Śląskie</state>
+                            <zip>41-200</zip>
+                        </address>
+                        <phone>+48 454 294 733</phone>
+                        <homepage>https://www.fajny.dostawca.pl</homepage>
+                    </supplier>
+                    <category>
+                        <categoryname>Rowery</categoryname>
+                        <description>Rowery wszelkiego typu</description>
+                    </category>
+                    <quantityperunit>1</quantityperunit>
+                    <unitsinstock>50</unitsinstock>
+                    <discontinued>0</discontinued>
+                </product>
+                <unitprice>7000</unitprice>
+                <quantity>1</quantity>
+                <discount>0.05</discount>
+            </orderitem>
+            <orderitem>
+                <product>
+                    <productname>Rower górski</productname>
+                    <supplier>
+                        <company>Rowerowo</company>
+                        <contactname>Adam Nowakowski</contactname>
+                        <contacttitle>Handlowiec</contacttitle>
+                        <address>
+                            <street>Wiślana</street>
+                            <city>Sosnowiec</city>
+                            <state>Śląskie</state>
+                            <zip>41-200</zip>
+                        </address>
+                        <phone>+48 454 294 733</phone>
+                        <homepage>https://www.fajny.dostawca.pl</homepage>
+                    </supplier>
+                    <category>
+                        <categoryname>Rowery</categoryname>
+                        <description>Rowery wszelkiego typu</description>
+                    </category>
+                    <quantityperunit>1</quantityperunit>
+                    <unitsinstock>20</unitsinstock>
+                    <discontinued>0</discontinued>
+                </product>
+                <unitprice>11000</unitprice>
+                <quantity>1</quantity>
+                <discount>0.05</discount>
+            </orderitem>
+        </orderitems>
+</order>
